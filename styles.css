@@ -1,0 +1,39 @@
+body {
+    background-color: #5988FF;
+    color: #FFFFFF;
+    text-decoration-color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+h1 {
+    color: #FD98FB; 
+    font-size: 22px;
+    font-family: 'Inter';
+    animation: color-change 3s infinite;
+}
+
+h2 {
+    color: #D6FF6B; 
+    font-size: 22px;
+    font-family: 'Inter';
+}
+
+img {
+    border: solid;
+    border-color: #FD98FB;
+}
+
+@keyframes color-change {
+  0% {
+    color: blue;
+  }
+
+  50% {
+    color: red;
+  }
+
+  100% {
+    color: blue;
+  }
+}
